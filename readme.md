@@ -13,3 +13,6 @@
 
 5、新增测试类，便于测试观察效果
 
+流程图如下：
+![image](https://github.com/YhcAndHc/distributed-lock/blob/master/image/dl_handle.png)
+
