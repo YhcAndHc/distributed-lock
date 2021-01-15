@@ -1,15 +1,12 @@
 package com.yhc.distributedlock.plugin;
 
+import java.util.concurrent.TimeUnit;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
-
-import java.net.ConnectException;
-import java.sql.Time;
-import java.util.concurrent.TimeUnit;
 
 /**
  * redis工具类，此处所有有效期均以秒为单位来计算
